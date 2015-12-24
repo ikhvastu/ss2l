@@ -20,8 +20,6 @@
 #include "TApplication.h"
 #include "TGraphAsymmErrors.h"
 
-//#include "mt2_bisect.h"
-
 using namespace std;
 
 int _multiWP[3] = {1,0,0};//Medium - ele, Loose - mu

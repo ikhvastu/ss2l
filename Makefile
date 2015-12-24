@@ -3,7 +3,7 @@ CFLAGS=
 LDFLAGS=`root-config --libs --cflags`
 SOURCES=readTree.cc mt2_bisect.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=readTree
+EXECUTABLE=make
 
 all:
 	$(CC) $(CFLAGS) $(SOURCES) $(LDFLAGS) -o $(EXECUTABLE)
